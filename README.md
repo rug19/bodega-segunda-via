@@ -51,6 +51,28 @@ Pontos a abordar na apresentação:
 | Acompanhamento do Trabalho | 10     |
 | **Total**                  | **30** |
 
+#### Slides
+
+Para fazer o slide sugiro utilizar esse planejamento abaixo:
+
+<details>
+<summary>Sequencia</summary>
+1. apresentar a equipe (nome e matricula)
+     
+2. apresentacao das tarefas (titulos)
+
+3. contextualizar o problema (task 1)
+
+4. detalhar a solucao (mostra codigo) (task 1)
+
+5. resultado (task 1)
+
+6. duvidas (opcional) (task 1)
+
+7,8 e 9 (outra task)
+</details>
+
+
 ---
 
 
@@ -61,6 +83,7 @@ Pontos a abordar na apresentação:
 - 09/06 - Conteudo novo e Acompanhamento
 - 16/06 - Conteudo novo e Acompanhamento
 - 23/06 - Apresentação Final
+
 
 ---
 
@@ -139,6 +162,7 @@ Pontos a abordar na apresentação:
 <li>Weverson Lima Gomes</li>
 <li>Italo Medeiros</li>
 <li>Elvis Araujo Martins</li>
-<li> -- --</li>
+<li> Gilvan Alves</li>
+<li>João Paulo</li>
 </ul>
 </details>
