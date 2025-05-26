@@ -10,6 +10,7 @@
 Resolver 04 tarefas/tasks/missões disponiveis no github
 
 > Tasks: https://github.com/estacioceara/bodega-segunda-via/issues
+> Projeto rodando: https://bodega-segunda-via.github.io 
 
 #### 📦 Apresentação/Entrega
 
