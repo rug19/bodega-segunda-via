@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +13,9 @@
 
     <link rel="stylesheet" href="css/custom.css">
 </head>
+
 <body class="container-fluid" style="height: 100vh;">
-    
+
     <div style="height: 100vh;" class="row align-items-center">
         <div class="col-3 offset-3">
             <img width="90%" src="img/login.svg" alt="">
@@ -32,7 +34,7 @@
                     Senha Invalida
                 </div>
 
-                <form  action="dashboard.html">
+                <form action="./src/pages/dashboard.php">
                     <input oninput="esconderErroEmail()" id="email" class="form-control mb-2" placeholder="Email" type="email">
                     <input oninput="esconderErroSenha()" id="senha" class="form-control mb-3" placeholder="Senha" type="password">
                     <button onclick="enviar()" class="btn btn-primary w-100">ENTRAR</button>
@@ -43,7 +45,7 @@
                 </form>
             </div>
         </div>
-        
+
     </div>
 
 
@@ -52,4 +54,5 @@
 
     <script src="js/login.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,47 +13,20 @@
 
     <link rel="stylesheet" href="css/custom.css">
 </head>
+
 <body class="container-fluid" style="height: 100vh;">
     <hr>
-    <nav class="row align-items-center">
-        <div class="col">
-            <span class="fw-bold fs-3">
-                <i class="material-icons fs-1">sports_bar</i>
-                FIC BEBO
-            </span>
-        </div>
-        <div class="col text-end">
-            <a class="btn btn-outline-dark" href="dashboard.html">
-                <i class="material-icons">home</i>
-                Dashboard
-            </a>
-            <a class="btn btn-outline-dark" href="clientes.html">
-                <i class="material-icons">group</i>
-                Clientes
-            </a>
-            <a class="btn btn-outline-dark" href="produtos.html">
-                <i class="material-icons">liquor</i>
-                Produtos
-            </a>
-            <a class="btn btn-outline-dark" href="pedidos.html">
-                <i class="material-icons">shopping_cart</i>
-                Pedidos
-            </a>
-            <a class="btn btn-outline-danger" href="index.html">
-                <i class="material-icons">logout</i>
-                Sair
-            </a>
-        </div>
-    </nav>
+    <?php include '../components/header.php' ?>
+
     <hr>
     <section class="card card-body shadow">
         <div class="d-flex justify-content-between">
             <h2>Produtos</h2>
 
             <span>
-                <a href="" 
-                   data-bs-toggle="offcanvas" 
-                   data-bs-target="#cadastro" class="btn btn-primary">
+                <a href=""
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#cadastro" class="btn btn-primary">
                     Novo Produto
                 </a>
             </span>
@@ -120,35 +94,35 @@
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="cadastro" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Novo Produto</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Novo Produto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <form action="">
                     <label for="nome">Nome</label>
                     <input type="text" id="nome"
-                           class="form-control mb-3" 
-                           placeholder="Digite aqui">
+                        class="form-control mb-3"
+                        placeholder="Digite aqui">
 
                     <label for="preco">Preço</label>
                     <input type="number" id="preco"
-                            step="0.01"
-                            class="form-control mb-3" 
-                            placeholder="Digite aqui">
+                        step="0.01"
+                        class="form-control mb-3"
+                        placeholder="Digite aqui">
 
                     <label for="quantidade">Quantidade</label>
                     <input type="number" min="0" id="quantidade"
-                            class="form-control mb-3" 
-                            placeholder="Digite aqui">
+                        class="form-control mb-3"
+                        placeholder="Digite aqui">
 
                     <label for="foto">URL da Foto</label>
                     <input type="url" id="foto"
-                            class="form-control mb-3" 
-                            placeholder="Digite aqui">
+                        class="form-control mb-3"
+                        placeholder="Digite aqui">
 
                     <label for="descricao">Descrição</label>
                     <textarea id="descricao"
-                        class="form-control mb-3" 
+                        class="form-control mb-3"
                         placeholder="Digite aqui"></textarea>
 
                     <button class="btn btn-primary w-100">
@@ -156,7 +130,6 @@
                     </button>
                 </form>
             </div>
-          </div>
+        </div>
     </section>
 
-<?php include 'views/footer.html' ?>
