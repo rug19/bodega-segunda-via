@@ -19,7 +19,6 @@
     <section class="card card-body shadow ">
         <div class="d-flex justify-content-between">
             <h2>Produtos</h2>
-
             <span>
                 <a href=""
                     data-bs-toggle="offcanvas"
