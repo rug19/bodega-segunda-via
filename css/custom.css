@@ -6,3 +6,19 @@ i {
   vertical-align: bottom;
 }
 
+@media (max-width: 995px) {
+  .header-fixo-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; /* acima de outros elementos */
+    background-color: #fff; /* necessário para cobrir o conteúdo atrás */
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* sombra para destaque */
+  }
+
+  body {
+    padding-top: 70px; /* espaço para não sobrepor o conteúdo abaixo do header */
+  }
+}

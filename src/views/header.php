@@ -1,4 +1,4 @@
-<header class=" align-items-center ">
+<header class="d-md-fixed-top align-items-center header-fixo-mobile ">
     <div class=" d-flex  align-items-center justify-content-between">
         <div>
             <span class="fw-bold fs-3 align-items-center">
@@ -7,7 +7,7 @@
             </span>
         </div>
         <div class=" d-lg-none">
-            <!-- Botão do menu para mobile -->
+            <!-- Botao do menu para mobile -->
             <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
                 <i class="material-icons">menu</i>
             </button>

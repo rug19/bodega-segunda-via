@@ -15,9 +15,9 @@
 </head>
 
 <body class="container-fluid" style="height: 100vh;">
-    <?php include '../views/sideBar.php' ?>
     <hr>
     <?php include '../views/header.php' ?>
+    <?php include '../views/sideBar.php' ?>
     <hr>
     <section class="card card-body shadow">
         <h2>Dashboard</h2>
