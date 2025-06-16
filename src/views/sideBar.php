@@ -1,4 +1,4 @@
-<nav class="offcanvas offcanvas-end" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+<section class="offcanvas  offcanvas-end" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
   <div class="offcanvas-header">
     <span class="fw-bold fs-3 offcanvas-title" id="sidebarMenuLabel">
       <i class="material-icons fs-1">sports_bar</i>
@@ -6,7 +6,7 @@
     </span>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
   </div>
-  <div class="offcanvas-body">
+  <nav class="offcanvas-body">
     <a class="btn btn-outline-dark w-100 mb-2 text-start" href="dashboard.php">
       <i class="material-icons">home</i>
       Dashboard
@@ -27,5 +27,5 @@
       <i class="material-icons">logout</i>
       Sair
     </a>
-  </div>
-</nav>
+  </nav>
+</section>

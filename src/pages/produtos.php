@@ -15,11 +15,11 @@
 </head>
 
 <body class="container-fluid" style="height: 100vh;">
+    <?php include '../views/sideBar.php' ?>
     <hr>
-    <?php include '../components/header.php' ?>
-
+    <?php include '../views/header.php' ?>
     <hr>
-    <section class="card card-body shadow">
+    <section class="card card-body shadow ">
         <div class="d-flex justify-content-between">
             <h2>Produtos</h2>
 
@@ -33,7 +33,7 @@
         </div>
         <hr>
 
-        <table class="table table-hover table-striped">
+        <table class="table table-hover table-striped d-none d-lg-table ">
             <thead class="table-dark">
                 <tr>
                     <th>Nome</th>
@@ -48,7 +48,7 @@
                 <tr>
                     <td>Ypióca</td>
                     <td>Prata, 960ml</td>
-                    <td> <img width="120px" src="img/ypioca.jpg" alt=""> </td>
+                    <td> <img width="120px" src="../../img/ypioca.jpg" alt=""> </td>
                     <td>10</td>
                     <td>R$ 18.90</td>
                     <td>
@@ -59,7 +59,7 @@
                 <tr>
                     <td>Vodka</td>
                     <td>Prata, 960ml</td>
-                    <td> <img width="120px" src="img/slova.jpeg" alt=""> </td>
+                    <td> <img width="120px" src="../../img/slova.jpeg" alt=""> </td>
                     <td>10</td>
                     <td>R$ 18.90</td>
                     <td>
@@ -70,7 +70,7 @@
                 <tr>
                     <td>Jurubeba do Muido</td>
                     <td>Prata, 960ml</td>
-                    <td> <img width="120px" src="img/jurubeba.jpg" alt=""> </td>
+                    <td> <img width="120px" src="../../img/jurubeba.jpg" alt=""> </td>
                     <td>10</td>
                     <td>R$ 18.90</td>
                     <td>
@@ -81,7 +81,7 @@
                 <tr>
                     <td>Sapupara</td>
                     <td>Ouro, celular</td>
-                    <td> <img width="120px" src="img/sapupara.jpeg" alt=""> </td>
+                    <td> <img width="120px" src="../../img/sapupara.jpeg" alt=""> </td>
                     <td>10</td>
                     <td>R$ 18.90</td>
                     <td>
@@ -91,6 +91,8 @@
                 </tr>
             </tbody>
         </table>
+
+        <?php include '../views/cardProdutos.php' ?>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="cadastro" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
@@ -132,4 +134,7 @@
             </div>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 
+</html>
