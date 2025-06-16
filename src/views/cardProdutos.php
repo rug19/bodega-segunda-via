@@ -5,10 +5,10 @@
                 <img src="../../img/ypioca.jpg" class="mx-1 mt-1" style="width: 90px; height: 90px;" alt="...">
                 <div class=" align-items-center">
                     <ul class="list-unstyled">
-                        <li>Nome: <span>ypioca</span></li>
-                        <li>Descrição: <span>Prata, 960ml</span></li>
-                        <li>Quantidade: <span>10</span></li>
-                        <li>Preço: <span>R$ 18.90</span></li>
+                        <li>Nome: ypioca</li>
+                        <li>Descrição: Prata, 960ml</li>
+                        <li>Quantidade: 10</li>
+                        <li>Preço: R$ 18.90</li>
                     </ul>
                     <div class="d-flex gap-2">
                         <a class="btn btn-warning btn-sm w-50" href="">Editar</a>
@@ -22,10 +22,10 @@
                 <img src="../../img/jurubeba.jpg" class="mx-1 mt-1" style="width: 90px; height: 90px;" alt="...">
                 <div class=" align-items-center">
                     <ul class="list-unstyled">
-                        <li>Nome: <span>ypioca</span></li>
-                        <li>Descrição: <span>Prata, 960ml</span></li>
-                        <li>Quantidade: <span>10</span></li>
-                        <li>Preço: <span>R$ 18.90</span></li>
+                        <li>Nome: ypioca</li>
+                        <li>Descrição:Prata, 960ml</li>
+                        <li>Quantidade: 10</li>
+                        <li>Preço: R$ 18.90</li>
                     </ul>
                     <div class="d-flex gap-2">
                         <a class="btn btn-warning btn-sm w-50" href="">Editar</a>
@@ -39,10 +39,10 @@
                 <img src="../../img/slova.jpeg" class="mx-1 mt-1" style="width: 90px; height: 90px;" alt="...">
                 <div class=" align-items-center">
                     <ul class="list-unstyled">
-                        <li>Nome: <span>ypioca</span></li>
-                        <li>Descrição: <span>Prata, 960ml</span></li>
-                        <li>Quantidade: <span>10</span></li>
-                        <li>Preço: <span>R$ 18.90</span></li>
+                        <li>Nome: ypioca</li>
+                        <li>Descrição: Prata, 960ml</li>
+                        <li>Quantidade: 10</li>
+                        <li>Preço: R$ 18.90</li>
                     </ul>
                     <div class="d-flex gap-2">
                         <a class="btn btn-warning btn-sm w-50" href="">Editar</a>
@@ -56,10 +56,10 @@
                 <img src="../../img/sapupara.jpeg" class="mx-1 mt-1" style="width: 90px; height: 90px;" alt="...">
                 <div class=" align-items-center">
                     <ul class="list-unstyled">
-                        <li>Nome: <span>ypioca</span></li>
-                        <li>Descrição: <span>Prata, 960ml</span></li>
-                        <li>Quantidade: <span>10</span></li>
-                        <li>Preço: <span>R$ 18.90</span></li>
+                        <li>Nome: ypioca</li>
+                        <li>Descrição: Prata, 960ml</li>
+                        <li>Quantidade: 10</li>
+                        <li>Preço: R$ 18.90</li>
                     </ul>
                     <div class="d-flex gap-2">
                         <a class="btn btn-warning btn-sm w-50" href="">Editar</a>

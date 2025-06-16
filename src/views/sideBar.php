@@ -1,6 +1,6 @@
 <section class="offcanvas  offcanvas-end" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
   <div class="offcanvas-header">
-    <span class="fw-bold fs-3 offcanvas-title" id="sidebarMenuLabel">
+    <span class=" d-flex align-items-center fw-bold fs-3 offcanvas-title" id="sidebarMenuLabel">
       <i class="material-icons fs-1">sports_bar</i>
       FIC BEBO
     </span>

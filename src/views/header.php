@@ -1,7 +1,7 @@
 <header class="d-md-fixed-top align-items-center header-fixo-mobile ">
     <div class=" d-flex  align-items-center justify-content-between">
         <div>
-            <span class="fw-bold fs-3 align-items-center">
+            <span class=" d-flex fw-bold fs-3 align-items-center">
                 <i class="material-icons fs-1">sports_bar</i>
                 FIC BEBO
             </span>
